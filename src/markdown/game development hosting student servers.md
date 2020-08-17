@@ -24,7 +24,7 @@ Additionally, you need to configure the plugins/TeamChallengeMCGD/config.yml fil
 
 ***
 
-## Useful Information
+## Helpful Information
 
 ***
 
