@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b339faac383d9e40de1ed7c96dbbcda",
+    "revision": "9a84c325c23dc7d35aecb4adf0246b1e",
     "url": "/teach/index.html"
   },
   {
-    "revision": "cb05715c5e26f4ce26bc",
+    "revision": "df3dbcc1a93f34da3e16",
     "url": "/teach/static/css/main.95c664fc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teach/static/js/2.5d2af5b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb05715c5e26f4ce26bc",
-    "url": "/teach/static/js/main.b66218a4.chunk.js"
+    "revision": "df3dbcc1a93f34da3e16",
+    "url": "/teach/static/js/main.2ce62223.chunk.js"
   },
   {
     "revision": "5345af12cadffb21d240",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teach/static/media/game development helper plugins.7c2b065f.md"
   },
   {
-    "revision": "66c7f8a42de4f1b5fb24022b93abd3d9",
-    "url": "/teach/static/media/game development hosting student servers.66c7f8a4.md"
+    "revision": "64aa2ef001ffd0b6ee702d9c5d99d7ab",
+    "url": "/teach/static/media/game development hosting student servers.64aa2ef0.md"
   },
   {
     "revision": "377c029a59f62a8e157ce888a33ca97a",

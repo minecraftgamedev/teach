@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/teach/static/css/main.95c664fc.chunk.css",
-    "main.js": "/teach/static/js/main.b66218a4.chunk.js",
-    "main.js.map": "/teach/static/js/main.b66218a4.chunk.js.map",
+    "main.js": "/teach/static/js/main.2ce62223.chunk.js",
+    "main.js.map": "/teach/static/js/main.2ce62223.chunk.js.map",
     "runtime-main.js": "/teach/static/js/runtime-main.adf98c8f.js",
     "runtime-main.js.map": "/teach/static/js/runtime-main.adf98c8f.js.map",
     "static/js/2.5d2af5b5.chunk.js": "/teach/static/js/2.5d2af5b5.chunk.js",
     "static/js/2.5d2af5b5.chunk.js.map": "/teach/static/js/2.5d2af5b5.chunk.js.map",
     "index.html": "/teach/index.html",
-    "precache-manifest.aac49c8d14e75049f5b02d9802464b15.js": "/teach/precache-manifest.aac49c8d14e75049f5b02d9802464b15.js",
+    "precache-manifest.ff446b9dcd90005bf26d0ad6f967bba8.js": "/teach/precache-manifest.ff446b9dcd90005bf26d0ad6f967bba8.js",
     "service-worker.js": "/teach/service-worker.js",
     "static/css/main.95c664fc.chunk.css.map": "/teach/static/css/main.95c664fc.chunk.css.map",
     "static/js/2.5d2af5b5.chunk.js.LICENSE.txt": "/teach/static/js/2.5d2af5b5.chunk.js.LICENSE.txt",
     "static/media/class prereqs.md": "/teach/static/media/class prereqs.a1fdba6d.md",
     "static/media/game development MongoDB database.md": "/teach/static/media/game development MongoDB database.eb048c13.md",
     "static/media/game development helper plugins.md": "/teach/static/media/game development helper plugins.7c2b065f.md",
-    "static/media/game development hosting student servers.md": "/teach/static/media/game development hosting student servers.66c7f8a4.md",
+    "static/media/game development hosting student servers.md": "/teach/static/media/game development hosting student servers.64aa2ef0.md",
     "static/media/game development lesson plans.md": "/teach/static/media/game development lesson plans.377c029a.md",
     "static/media/game development local database.md": "/teach/static/media/game development local database.65fa0eb5.md",
     "static/media/game development nodejs backend.md": "/teach/static/media/game development nodejs backend.f3c9cf3e.md",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.adf98c8f.js",
     "static/js/2.5d2af5b5.chunk.js",
     "static/css/main.95c664fc.chunk.css",
-    "static/js/main.b66218a4.chunk.js"
+    "static/js/main.2ce62223.chunk.js"
   ]
 }
