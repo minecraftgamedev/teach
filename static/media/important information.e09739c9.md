@@ -48,4 +48,14 @@ On the left, we have separated many of the important design and development conc
 
 Additionally, the student resources page is available above under the tab "Student Resources". This is the content that the students were given to work with during class and the challenges.
 
-We encourage potential teachers to consider the design and development components of the class separately; that is, due to the nature of the development portion of class with a dynamic and group-based challenge component, the design portion of this class is much easier to learn and teach to students, while the development portion of this class (along with challenges) is much more involved and requires a lot of knowledge and preparation from the teachers. 
+We encourage potential teachers to consider the design and development components of the class separately; that is, due to the nature of the development portion of class with a dynamic and group-based challenge component, the design portion of this class is much easier to learn and teach to students, while the development portion of this class (that is, along with plugin development challenges) is much more involved and requires a lot of knowledge and preparation from the teachers to execute successfully.
+
+***
+
+## Contact information
+
+***
+
+If you have any questions or otherwise just want to contact us, you can do so by emailing **mcgd@mit.edu**.
+
+Additionally, if you end up teaching this class in the future, whether that be design only, development only, or both, we would love to hear about it! Let us know!

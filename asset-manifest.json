@@ -1,34 +1,34 @@
 {
   "files": {
     "main.css": "/teach/static/css/main.95c664fc.chunk.css",
-    "main.js": "/teach/static/js/main.50bc3fc3.chunk.js",
-    "main.js.map": "/teach/static/js/main.50bc3fc3.chunk.js.map",
+    "main.js": "/teach/static/js/main.b66218a4.chunk.js",
+    "main.js.map": "/teach/static/js/main.b66218a4.chunk.js.map",
     "runtime-main.js": "/teach/static/js/runtime-main.adf98c8f.js",
     "runtime-main.js.map": "/teach/static/js/runtime-main.adf98c8f.js.map",
     "static/js/2.5d2af5b5.chunk.js": "/teach/static/js/2.5d2af5b5.chunk.js",
     "static/js/2.5d2af5b5.chunk.js.map": "/teach/static/js/2.5d2af5b5.chunk.js.map",
     "index.html": "/teach/index.html",
-    "precache-manifest.0501c1c86ccf1c63dc1b27e250d402d9.js": "/teach/precache-manifest.0501c1c86ccf1c63dc1b27e250d402d9.js",
+    "precache-manifest.aac49c8d14e75049f5b02d9802464b15.js": "/teach/precache-manifest.aac49c8d14e75049f5b02d9802464b15.js",
     "service-worker.js": "/teach/service-worker.js",
     "static/css/main.95c664fc.chunk.css.map": "/teach/static/css/main.95c664fc.chunk.css.map",
     "static/js/2.5d2af5b5.chunk.js.LICENSE.txt": "/teach/static/js/2.5d2af5b5.chunk.js.LICENSE.txt",
     "static/media/class prereqs.md": "/teach/static/media/class prereqs.a1fdba6d.md",
-    "static/media/game development MongoDB database.md": "/teach/static/media/game development MongoDB database.18eaf06f.md",
-    "static/media/game development helper plugins.md": "/teach/static/media/game development helper plugins.3871648c.md",
-    "static/media/game development hosting student servers.md": "/teach/static/media/game development hosting student servers.e0a479e6.md",
-    "static/media/game development lesson plans.md": "/teach/static/media/game development lesson plans.a9a50644.md",
-    "static/media/game development local database.md": "/teach/static/media/game development local database.9e64a7e8.md",
-    "static/media/game development nodejs backend.md": "/teach/static/media/game development nodejs backend.ac545ad7.md",
-    "static/media/game development react webserver.md": "/teach/static/media/game development react webserver.de708081.md",
-    "static/media/important information.md": "/teach/static/media/important information.26035fb3.md",
-    "static/media/should i teach development.md": "/teach/static/media/should i teach development.6b44bad5.md",
-    "static/media/teaching game design.md": "/teach/static/media/teaching game design.e15c83c4.md",
-    "static/media/teaching game development.md": "/teach/static/media/teaching game development.9bc2f032.md"
+    "static/media/game development MongoDB database.md": "/teach/static/media/game development MongoDB database.eb048c13.md",
+    "static/media/game development helper plugins.md": "/teach/static/media/game development helper plugins.7c2b065f.md",
+    "static/media/game development hosting student servers.md": "/teach/static/media/game development hosting student servers.66c7f8a4.md",
+    "static/media/game development lesson plans.md": "/teach/static/media/game development lesson plans.377c029a.md",
+    "static/media/game development local database.md": "/teach/static/media/game development local database.65fa0eb5.md",
+    "static/media/game development nodejs backend.md": "/teach/static/media/game development nodejs backend.f3c9cf3e.md",
+    "static/media/game development react webserver.md": "/teach/static/media/game development react webserver.0ce92663.md",
+    "static/media/important information.md": "/teach/static/media/important information.e09739c9.md",
+    "static/media/should i teach development.md": "/teach/static/media/should i teach development.393b61d6.md",
+    "static/media/teaching game design.md": "/teach/static/media/teaching game design.7cb8599b.md",
+    "static/media/teaching game development.md": "/teach/static/media/teaching game development.18f533f5.md"
   },
   "entrypoints": [
     "static/js/runtime-main.adf98c8f.js",
     "static/js/2.5d2af5b5.chunk.js",
     "static/css/main.95c664fc.chunk.css",
-    "static/js/main.50bc3fc3.chunk.js"
+    "static/js/main.b66218a4.chunk.js"
   ]
 }

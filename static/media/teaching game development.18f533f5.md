@@ -6,7 +6,7 @@
 
 ***
 
-Teaching Minecraft game development comes in multiple parts:
+Teaching Minecraft game development comes in essentially two parts:
 
 - You will be teaching the students how to use the Spigot plugin API. For ease of use, I made the students install IntelliJ IDEA so that the Spigot library could be easily downloaded through Maven and the Spigot documentation could be easily viewed within the IDE.
 
@@ -62,7 +62,8 @@ For more information on how to replicate each section, view the respective tab o
 
 Below is a list of what you need to download and/or have ready before the first class. Most should be ready-to-use upon download, but some may need you to set them up/understand how to use them under "Additional Development Content".
 
-* MASTER COPY: all at once: [Link]() - Coming Soon
+* MASTER TEMPLATE: all at once: [Direct Link](https://github.com/tazadejava/mcgd-master-template/archive/master.zip)
+    * Alternatively, you can view the Github page before downloading the files via this link: [Github Page](https://github.com/tazadejava/mcgd-master-template)
 
 Includes:
 
@@ -78,7 +79,44 @@ Includes:
 
 6) PluginVerifier program
 
-All of the files are in relative order, so they should work out-of-the-box.
+All of the files are in relative order of each other to function correctly, so they should work out-of-the-box.
+
+### Recommendations:
+
+- If you are going to host all the student servers on your own machine, you need to edit the "WebsiteMCGD/api/scripts/updatepluginfiles.sh" file to redirect the downloaded plugin files to the correct server location, within the plugins folder.
+    - If you plan on outsourcing the student server hosting through SSH like I did, you can simply edit the scp and ssh commands to use the private key and correct username/IP address.
+
+- There is a script, "ServerScripts/resetServers.sh", that can serve as a template to help automate resetting all of your student servers to a particular level, including updating the config and copying over the challenge world template for that particular level. It works under scp and ssh, but if your servers are locally hosted, you may want to edit it accordingly.
+
+- There is another script, "ServerScripts/startAllServers.sh", that will start all remote servers and put them on separate tabs on the terminal. You can use this as a guide to start your own servers.
+
+- Consider hosting the frontend website on a separate site that allows you to host it 24/7 for the students to have access to the resources page, even if the backend is not online. You may need to edit the react frontend settings to only show particular week resources at any given time.
+    - Alternatively, the students can access the permanent github page, but note that all 6 weeks exist on this site and this cannot change.
+
+- For ease of use, the backend website can be hosted on your local machine, but it is entirely possible to host it remotely as well, as long as the LocalDatabase follows it.
+
+***
+
+## If you are going to teach more than 8 groups
+
+***
+
+There are a number of places you need to edit to ensure the groups are all accounted for. Particularly:
+
+Within the WebsiteMCGD/api folder:
+
+- models/LogLine: edit the MAX_GROUPS variable to the number of groups you will be using (line 17)
+- routes/index.js: edit the MAX_GROUPS variable to the same number as above (line 225)
+- userFiles directory: create a folder for each group
+- userFilesHistory directory: create a folder for each group
+- LocalDatabase/challenge6scores.json: you need to add a component for each group you want to add
+- LocalDatabase/groupData: add a group for each group you want, naming via "groupX"
+
+Within the StudentPlugins folder:
+
+- Make sure you have a GroupX folder for each group that will have.
+
+Of course, also make sure you have a separate Minecraft server for each group.
 
 ***
 
@@ -88,11 +126,23 @@ All of the files are in relative order, so they should work out-of-the-box.
 
 You will need to have the following items started before the students start the challenge (preferably set this up before class starts):
 
+**First, you need to make sure all servers are updated to the correct challenge week.**
+
+1) The frontend website should be updated to the newest week. Update the function return value in WebsiteMCGD/react-frontend/Header.js under the function getCurrentWeekNumber() by either manually changing the week number or creating a function that will automatically update the week. Then, you should build the webserver once again so that the week is reflected in the build version of the website. Do this by typing "npm run build" in the react-frontend folder.
+2) The student servers should all be updated to the newest week. You will need to replace the "world" folder in each server, as well as update the config file's level under plugins/TeamChallengeMCGD/config.yml to the respective level.
+3) If needed, for some challenges, you may need to update the StudentPlugins folder and edit the plugin.yml files for each plugin to create the correct command for the challenge. Check each week's template for the CommandHandler class, and if it exists, register a command for the name that is in the template.
+4) You may also want to hide the featured solutions for the particular challenges on the frontend website. To do this, remove the solutions from the MD file under WebsiteMCGD/react-frontend/src/markdown/challengeX.md. You may also want to edit the "past presentations.md" file as well.
+
+**Now, you can start all required components.**
+
 - The frontend webserver should be up and running. This is the website that the students will use to upload their plugin files onto their group's server.
+     - To start the react server, navigate to "WebsiteMCGD/react-frontend" and type **sudo npm serve** in the terminal. The sudo is necessary to host the website on port 80.
 
 - The backend server should also be up and running. This will allow the students to upload their plugin files onto the frontend website so that it can be transferred to their respective group's server.
+    - To start the backend server, navigate to "WebsiteMCGD/api" and type **node start.js** in the terminal.
 
 - All student servers should be up and running. See above for one way to manage multiple servers at once. The backend will be in charge of transferring the plugin files into jar files, then transferring them to the respective group's server to be loaded and enabled.
+    - You may either have to start the student servers remotely or locally. Either way, make sure the TeamChallengeMCGD/config.yml file is updated to the latest level, and the world folder is the correct level.
 
 ***
 

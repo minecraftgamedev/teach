@@ -8,7 +8,7 @@
 
 There are a lot of logistical components that teacher(s) will have to handle before class starts, and teachers must ensure all components for the challenge are up and running for every class.
 
-To get an idea of the requirements you need to teach in the way that this class was taught, here's a checklist of items you should be familiar with and/or know how to work with, as these were concepts used to teach the class originally. If you are unfamiliar with multiple of these items and aren't sure if you can learn all of these concepts before teaching this class, reconsider teaching Minecraft Game Development in the same style as this class.
+To get an idea of the requirements you need to teach in the way that this class was taught, here's a checklist of items you should be familiar with and/or know how to work with, as these were concepts used to teach the class originally. If you are unfamiliar with multiple of these items and aren't sure if you can learn all of these concepts before teaching this class, **strongly reconsider** teaching Minecraft Game Development in the same style as this class.
 
 - You need a STRONG understanding of Minecraft Plugin Development
     
@@ -36,4 +36,6 @@ To get an idea of the requirements you need to teach in the way that this class 
 
 - You should be familiar with how MongoDB works, especially if you want to show the players live server logs
 
-- You should be comfortable with using the Linux terminal, since many of the automated scripts depend on the usage of Linux bash scripts. Best case you are also running a Linux machine to teach this class, as many scripts that work with loading up the required materials for the class are coded in a .sh file. 
+- You should be comfortable with using the Linux terminal and familiar with bash scripting, since many of the automated scripts depend on the usage of Linux bash scripts. Best case you are also running a Linux machine to teach this class, as many scripts that work with loading up the required materials for the class are coded in a .sh file. 
+
+- If hosting student servers remotely (ex: XVM in SIPB at MIT), you need to be familiar with ssh and scp, and comfortable using them on a regular basis to connect to your remote servers, start them up, and update them weekly.

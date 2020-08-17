@@ -2,7 +2,9 @@
 
 ***
 
-Below, you can view a simplified version of the notes that I used for every lesson. Essentially, you are viewing an outline of how each development portion worked out.
+Below, you can view a quite comprehensive version of the notes that I used for every lesson. Essentially, you are viewing an outline of how each development portion worked out.
+
+This section is particularly helpful if you want to teach game development with or without the challenge component, as the lesson and the challenge is separated for each week.
 
 ***
 
